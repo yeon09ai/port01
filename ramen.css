@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: inherit;
+}
+body{
+    background-color: #FFE4E1;
+}
+
+h1{
+    font-size: 50px;
+    background: #fff;
+    box-shadow: 0px 0px 0px 5px #fff;
+    border: dashed 2px #a9a9a9;
+    padding: 0.2em 0.5em;
+    width: 405px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.box{
+    background-color: #fff;
+    width: 1100px;
+    height: 1100px;
+    margin: 70px;
+    margin: 0 auto;
+}
+.box .video{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.box .text{
+    margin-top: 30px;
+    text-align: center;
+}
+.box .text .text_1 h5{
+    width: 145px;
+    font-size: 25px;
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #ffa299;/*左線*/
+    margin-left: 43.5%;
+}
+.box .text .text_1 img{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.box .text .text_2 h5{
+    width: 125px;
+    font-size: 25px;
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #ffa299;/*左線*/
+    margin-left: 44.5%;
+}
+.box .text .text_2 p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+
+/* ボタン */
+.round_btn {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #333; /* 枠の調整 */
+    border-radius: 50%;  /* 丸みの度合い */
+    background: #fff; /* ボタンの背景色 */
+    left: 50%; 
+    margin-top: 70px; 
+    margin-bottom: 70px;
+
+}
+  
+  .round_btn::before, .round_btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px; /* 棒の幅（太さ） */
+    height: 22px; /* 棒の高さ */
+    background: #333; /* バツ印の色 */
+  }
+  
+  .round_btn::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+  
+  .round_btn::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+
+@media only screen and (max-width: 480px){
+    h1{
+        text-align: center;
+        margin-left: 12.5%;
+    }
+    .box .text .text_1 h5{
+        margin: 0 auto;
+    }
+    .box .text .text_2 h5{
+        margin: 0 auto;
+    }
+    .box{
+        width: 70vh;
+        height: 850px;
+        margin-right: 10px;
+    }
+    .box video{
+        width: 55vh;
+        text-align: center;
+    }
+    .round_btn {
+        left: 65%;
+        margin-top: 70px;
+    }
+    
+}
