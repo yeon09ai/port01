@@ -565,3 +565,9 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
   text-align: center;
   padding: 18px;
 }
+
+@media only screen and (max-width: 480px){
+  #top .top_pg{
+    margin: 0 auto;
+  }
+}
