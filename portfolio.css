@@ -567,11 +567,38 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
 }
 
 @media only screen and (max-width: 480px){
-  #top .top_pg{
-    position: relative;
+  #top .top_pg h1{
+    font-size: 55px;
+    position: absolute;
+    right: 15%;
+    z-index: 30;
   }
   #top .top_pg img{
-    position: absolute;
-
+    position: relative;
+    z-index: -20;
+  }
+  #about h3{
+    font-size: 35px;
+    width: 170px;
+    margin-left: 43%;
+  }
+  #about .profile{
+    display:flex;
+    flex-flow: column;
+  }
+  #about .profile img{
+    width: 285px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  #about .profile .pro_box{
+    font-size: 18px;
+    width: 285px;
+    height: auto;
+    margin-left: 0px;
+  }
+  #about .profile .pro_box h4{
+    font-size: 24px;
   }
 }
+
