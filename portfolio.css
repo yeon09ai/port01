@@ -579,8 +579,8 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
   }
   #about h3{
     font-size: 35px;
-    width: 170px;
-    margin-left: 43%;
+    width: 175px;
+    margin-left: 35%;
   }
   #about .profile{
     display:flex;
@@ -592,7 +592,7 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
     margin-bottom: 50px;
   }
   #about .profile .pro_box{
-    font-size: 18px;
+    font-size: 20px;
     width: 285px;
     height: auto;
     margin-left: 0px;
@@ -600,5 +600,120 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
   #about .profile .pro_box h4{
     font-size: 24px;
   }
+  #about .profile .pro_box h5{
+    margin-left: 25px;
+  }
+  #about .profile .pro_box p{
+    margin-left: 35px;
+  }
+
+
+  #works h3{
+    font-size: 35px;
+    width: 180px;
+  }
+  #works .works__card{
+    display:flex;
+    flex-flow: column;
+  }
+  #works .works__card .sakana__title{
+    height: 400px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+  }
+  #works .works__card .sakana__title img{
+    width: 200px;
+    height: auto;
+  }
+  #works .works__card .sakana__title h5{
+    font-size: 23px;
+  }
+  #works .works__card .card__title{
+    height: 400px;
+    margin-left: 0px;
+  }
+  #works .works__card .card__title img{
+    width: 200px;
+    height: auto;
+  }
+  #works .works__card .card__title h5{
+    font-size: 23px;
+  }
+  #works .works__card2{
+    display:flex;
+    flex-flow: column;
+  }
+  #works .works__card2 .portfolio__title{
+    height: 400px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+
+  }
+  #works .works__card2 .portfolio__title img{
+    width: 200px;
+    height: auto;
+  }
+  #works .works__card2 .portfolio__title h5{
+    font-size: 23px;
+  }
+  #works .works__card2 .portfolio__title p{
+    margin-bottom: 28px;
+    padding-left: 35%;
+  }
+  #works .works__card2 .ramen__title{
+    height: 400px;
+    margin-left: 0px;
+  }
+  #works .works__card2 .ramen__title img{
+    width: 200px;
+    height: auto;
+  }
+  #works .works__card2 .ramen__title h5{
+    font-size: 23px;
+  }
+
+  #skill h3{
+    font-size: 35px;
+    width: 150px;
+    margin-left: 0%;
+  }
+  #skill .icon1,.icon2{
+    display:flex;
+    flex-flow: column;
+  }
+  #skill .icon .icon1 .html{
+    margin-left: 0px;
+    margin: 0 auto;  
+
+  }
+  #skill .icon .icon1 .css{
+    margin-left: 0px;
+    margin: 0 auto;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  #skill .icon .icon1 .maya{
+    margin-left: 0px;
+    margin: 0 auto;  
+  }
+  #skill .icon .icon2 .ai{
+    margin-left: 0px;
+    margin: 0 auto;  
+  }
+  #skill .icon .icon2 .ps{
+    margin-left: 0px;
+    margin: 0 auto;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  #skill .icon .icon2 .dv{
+    margin-left: 0px;
+    margin: 0 auto;  
+  }
+
+
+
 }
 
