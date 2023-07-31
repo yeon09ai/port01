@@ -566,7 +566,8 @@ padding: 18px;
 
 
 @media only screen and (max-width: 480px){
-#menu-icon{
+.menu-icon:checked + label,
+.menu-icon:not(:checked) + label{
   display: none;
 }
 #top .top_pg h1{
