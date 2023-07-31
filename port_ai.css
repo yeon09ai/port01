@@ -135,6 +135,7 @@ h1{
     }
     .box{
         height: 3700px;
+        width: 100vh;
         margin-right: 10px;
     }
 }
