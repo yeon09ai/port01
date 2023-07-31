@@ -565,7 +565,7 @@ padding: 18px;
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 390px){
 .menu-icon:checked + label,
 .menu-icon:not(:checked) + label{
   display: none;
