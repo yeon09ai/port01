@@ -567,6 +567,9 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
 }
 
 @media only screen and (max-width: 480px){
+  #menu-icon{
+    z-index: 50;
+  }
   #top .top_pg h1{
     font-size: 55px;
     position: absolute;
@@ -712,8 +715,5 @@ footer ul li.fb a:hover,footer ul li.fb a:active {
     margin-left: 0px;
     margin: 0 auto;  
   }
-
-
-
 }
 
