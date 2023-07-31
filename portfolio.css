@@ -570,6 +570,10 @@ padding: 18px;
 .menu-icon:not(:checked) + label{
   display: none;
 }
+.menu-icon:checked + label:before,
+.menu-icon:not(:checked) + label:before{
+  display: none;
+}
 #top .top_pg h1{
   font-size: 55px;
   position: absolute;
