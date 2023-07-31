@@ -122,4 +122,19 @@ h1{
         display:flex;
         flex-flow: column;
     }
+    .box .img img{
+        width: 500px;
+    }
+
+    .box .img2{
+        display:flex;
+        flex-flow: column;
+    }
+    .box .img2 img{
+        width: 500px;
+    }
+    .box{
+        height: 3700px;
+        margin-right: 10px;
+    }
 }

@@ -110,7 +110,8 @@ h1{
 
   @media only screen and (max-width: 480px){
     .box{
-        height: 850px;
+        width: 70vh;
+        height: 1350px;
         margin-right: 10px;
     }
     .box .img{
@@ -118,10 +119,16 @@ h1{
         flex-flow: column;
     }
     .box .img .pink{
-        width: 80vh;
+        width: 200px;
         margin-bottom: 100px;
     }
     .box .img .yellow{
-        width: 80vh;
+        width: 200px;
+    }
+    .box .text .text_1 h5{
+        margin: 0 auto;
+    }
+    .box .text .text_2 h5{
+        margin: 0 auto;
     }
 }
